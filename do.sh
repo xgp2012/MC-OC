@@ -1,8 +1,8 @@
 #!/bin/bash
 
-URL1="https://github.com/xgp2012/MC-OC/raw/refs/heads/main/MC-OC-qz.sh"
-URL2="https://github.com/xgp2012/MC-OC/raw/refs/heads/main/MC-OC.sh"
-URL3="https://github.com/xgp2012/MC-OC/raw/refs/heads/main/start.sh"
+URL1="https://v6.gh-proxy.org/https://github.com/xgp2012/MC-OC/raw/refs/heads/main/MC-OC-qz.sh"
+URL2="https://v6.gh-proxy.org/https://github.com/xgp2012/MC-OC/raw/refs/heads/main/MC-OC.sh"
+URL3="https://v6.gh-proxy.org/https://github.com/xgp2012/MC-OC/raw/refs/heads/main/start.sh"
 
 FILE1="MC-OC-qz.sh"
 FILE2="MC-OC.sh"
