@@ -8,5 +8,5 @@ do.sh自动下载的脚本中包含启动脚本
 更新的话随缘
 不过服务端下载链接会实时更新
 
-推荐前往https://vps.idcfx.net/aff/RSTTPXKD购买云服务器使用脚本
+推荐前往https://vps.idcfx.net/aff/RSTTPXKD  购买云服务器使用脚本
 佛系云：一个证件齐全却有着小厂价格的宝藏服务商
