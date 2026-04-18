@@ -130,26 +130,25 @@ fi
 # =============================================================================
 echo ""
 log_step "=== 选择 Minecraft 服务端版本 ==="
-log_warn "下载源: Mojang 官方服务器 (国内访问可能较慢)"
+log_warn "下载源: 第三方服务端 官方服务器 (国内访问可能较慢)"
 
 # ==================== 🔧 用户配置区 🔧 ====================
 # 版本号列表（按顺序）
 MC_VERSIONS=(
-  "1.20.1"
-  "1.20.4"
-  "1.21"
+  "1.21.10"
+  "1.21.8"
+  "1.21.5"
   "1.21.1"
-  "1.21.3"
+  "1.20.1"
 )
 
 # Mojang 官方直链（请定期验证链接有效性）
-# 获取最新链接: https://piston-meta.mojang.com/mc/game/version_manifest_v2.json
 MC_URLS=(
-  "https://piston-data.mojang.com/v1/objects/84194a2f286ef7c14ed7ce0090dba59902951555/server.jar"
-  "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar"
-  "https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar"
-  "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar"
-  "https://piston-data.mojang.com/v1/objects/PLACEHOLDER_1_21_3/server.jar"
+  "https://api.leavesmc.org/v2/projects/leaves/versions/1.21.10/builds/150/downloads/application"
+  "https://api.leavesmc.org/v2/projects/leaves/versions/1.21.8/builds/138/downloads/application"
+  "https://api.leavesmc.org/v2/projects/leaves/versions/1.21.5/builds/57/downloads/application"
+  "https://api.leavesmc.org/v2/projects/leaves/versions/1.21.1/builds/81/downloads/application"
+  "https://api.leavesmc.org/v2/projects/leaves/versions/1.20.1/builds/102/downloads/application"
 )
 # =========================================================
 
