@@ -153,9 +153,9 @@ if [ -f "server.jar" ] && [ -s "server.jar" ]; then
   log_info "✅ 下载成功! $(du -h server.jar | cut -f1)"
   echo ""
   echo -e "${GREEN}📌 下一步:${NC}"
-  echo "   1️⃣  java -Xmx2G -jar server.jar nogui  (首次运行)"
-  echo "   2️⃣  编辑 eula.txt → eula=true"
-  echo "   3️⃣  java -Xmx4G -Xms2G -XX:+UseG1GC -jar server.jar nogui"
+  echo "   先找到你创建的目录查看是否有server.jar"
+  echo "   找到start.sh"
+  echo "   运行./start.sh"
 else
   log_error "下载彻底失败。请复制上方红色错误信息排查。"
   echo "💡 常见原因: 链接失效 / 403拦截 / 磁盘已满 / 网络不通"
