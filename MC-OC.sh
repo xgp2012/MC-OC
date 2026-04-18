@@ -1,7 +1,6 @@
 #!/bin/bash
 # =============================================================================
-# Minecraft Java版服务端一键配置脚本（下载逻辑修复版）
-# 修复：curl参数冲突 / 隐藏错误屏蔽 / CDN拦截 / 空文件校验
+# Minecraft Java版服务端OC脚本
 # 格式：Unix LF
 # =============================================================================
 
@@ -17,7 +16,7 @@ log_error()   { echo -e "${RED}[ERROR]${NC} $1"; }
 log_step()    { echo -e "${BLUE}[STEP]${NC} $1"; }
 
 echo -e "${GREEN}╔════════════════════════════════════════╗${NC}"
-echo -e "${GREEN}║  Minecraft 服务端配置脚本 (下载修复版)  ║${NC}"
+echo -e "${GREEN}║  Minecraft 服务端MCOC脚本  ║${NC}"
 echo -e "${GREEN}╚════════════════════════════════════════╝${NC}"
 echo ""
 
@@ -81,14 +80,14 @@ log_step "=== 选择 Minecraft 服务端版本 ==="
 log_warn "能用就行。"
 
 # ==================== 🔧 用户配置区 🔧 ====================
-MC_VERSIONS=("1.21.11Paper" "1.20.4" "1.21" "1.21.1" "1.21.3")
+MC_VERSIONS=("1.21.11Paper" "1.21.8Leaves" "1.21.5Leaves" "1.21.1Paper" "1.20.1Paper")
 # ⚠️ 请替换为你的真实直链（保持顺序一致）
 MC_URLS=(
   "https://fill-data.papermc.io/v1/objects/25eb85bd8415195ce4bc188e1939e0c7cef77fb51d26d4e766407ee922561097/paper-1.21.11-130.jar"
-  "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar"
-  "https://piston-data.mojang.com/v1/objects/4707d00eb834b446575d89a61a11b5d548d8c001/server.jar"
-  "https://piston-data.mojang.com/v1/objects/59353fb40c36d304f2035d51e7d6e6baa98dc05c/server.jar"
-  "https://piston-data.mojang.com/v1/objects/PLACEHOLDER/server.jar"
+  "https://github.com/LeavesMC/Leaves/releases/download/1.21.8-138-9331167/leaves-1.21.8.jar"
+  "https://file.mslmc.cn/servers/leaves/leaves-1.21.5-57.jar"
+  "https://file.mslmc.cn/servers/paper/paper-1.21.1-133.jar"
+  "https://file.mslmc.cn/servers/paper/paper-1.20.1-196.jar"
 )
 # =========================================================
 
